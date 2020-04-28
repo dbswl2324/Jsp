@@ -5,7 +5,7 @@ class Singleton{
 	static Singleton singleton;
 	private Singleton(){
 		System.out.println("생성자 접근 불가능");
-	}
+	} 
 	public static Singleton getInstance() {
 		if(singleton==null)
 				singleton = new Singleton();

@@ -33,7 +33,7 @@ public class PollItemBean {
 		this.item = item;
 	}
 	public int getCount() {
-		return count;
+		return count; 
 	}
 	public void setCount(int count) {
 		this.count = count;

@@ -9,7 +9,7 @@ public class MemberMgr {
 	private DBConnectionMgr pool;
 	public MemberMgr() {
 		pool=DBConnectionMgr.getInstance();
-	}
+	} 
 	//로그인 : 성공-true, 실패 - false
 	public boolean loginMember(String id, String pwd) {
 		Connection con = null;

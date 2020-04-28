@@ -8,7 +8,7 @@ private int age;
 private String team;
 public int getNum() {
 	return num;
-}
+}  
 public void setNum(int num) {
 	this.num = num;
 }

@@ -9,7 +9,7 @@ public class PollListBean{
 	private int type;
 	private int active;
 	
-	public int getNum() {
+	public int getNum() { 
 		return num;
 	}
 	public void setNum(int num) {

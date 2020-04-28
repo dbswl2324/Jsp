@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
  * <b>Class Description</b><br>
  * String에 관한 처리를 담당하는 Util Class
  * <b>History</b><br>
- */
+ */ 
 public class StringUtil {
 
     public StringUtil() {}

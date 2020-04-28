@@ -13,7 +13,7 @@ public class TeamMgr {
 		//DBConnectionMgr 싱글톤 패턴으로 구현 클래스
 		//싱글톤 패턴은 객체를 only one개만 만들수 있는 패턴
 		pool=DBConnectionMgr.getInstance();
-	}
+	} 
 	//pool에서 빌림->사용->반납.
 	
 	//저장

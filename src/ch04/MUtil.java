@@ -3,7 +3,7 @@ package ch04;
 import java.util.Random;
 
 import javax.servlet.http.HttpServletRequest;
-
+ 
 public class MUtil {
 	public static int parseInt(HttpServletRequest req, String name) {
 		return Integer.parseInt(req.getParameter(name));

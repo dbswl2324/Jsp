@@ -19,7 +19,7 @@ public class FileloadMgr {
 	public static final String encoding = "EUC-KR";
 	//업로드 파일 크기
 	public static final int maxSize =  1024*1024*10;//10MB
-	
+	 
 	public FileloadMgr() {
 		pool = DBConnectionMgr.getInstance();
 	}

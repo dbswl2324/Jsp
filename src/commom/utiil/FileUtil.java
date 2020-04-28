@@ -12,7 +12,7 @@ public class FileUtil {
 
 	/**
 	 * 디렉토리나 파일의 경로와 이름을 입력받아 File 객체를 리턴한다.
-	 *
+	 * 
 	 * @param String path   파일 혹은 디렉토리 위치 경로
 	 * @param String name   파일 혹은 디렉토리명
 	 * @return File

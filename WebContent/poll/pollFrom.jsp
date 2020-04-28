@@ -16,7 +16,7 @@
 		int active = plBean.getActive();
 		int sumCount=mgr.sumCount(num);//ÃÑÅõÇ¥¼ö 
 %>
-<form action="pollFormProc.jsp">
+<form action="pollFormProc.jsp"> 
 <table border="1">
 <tr>
 <td colspan="2" width="300">

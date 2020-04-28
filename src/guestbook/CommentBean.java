@@ -9,7 +9,7 @@ public class CommentBean {
 	private String cregDate;
 	public int getCnum() {
 		return cnum;
-	}
+	} 
 	public void setCnum(int cnum) {
 		this.cnum = cnum;
 	}

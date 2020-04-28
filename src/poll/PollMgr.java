@@ -286,10 +286,10 @@ public class PollMgr {
 			rs = pstmt.executeQuery();
 			while(rs.next()) {
 				PollItemBean piBean = new PollItemBean();
-				piBean.setItem1(rs.getString("item"));
+				//piBean.setItem1(rs.getString("item"));
 				piBean.setCount(rs.getInt("count"));
 				vlist.addElement(piBean);
-			}
+			} 
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {

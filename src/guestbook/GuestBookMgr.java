@@ -14,7 +14,7 @@ public class GuestBookMgr {
 			new SimpleDateFormat("H:mm:ss");
 public GuestBookMgr() {
 	pool=DBConnectionMgr.getInstance();
-}
+} 
 
 //Join Login
 public boolean loginJoin(String id, String pwd) {

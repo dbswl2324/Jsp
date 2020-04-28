@@ -4,7 +4,7 @@ package ch07;
  * 2.테이블+DTO(Date Tranfer Object)
  * 3.테이블+VO(Value Object)
  * ex)tblTeam ->TeamBean.java
- * */
+ * */ 
 public class SimpleBean {
 	//테이블 스키마
 	private String msg;//

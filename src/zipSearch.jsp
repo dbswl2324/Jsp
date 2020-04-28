@@ -9,7 +9,7 @@
 		Vector<ZipcodeBean> vlist = null;
 		String area3 = null; 
 		if(search.equals("y")){
-			//검색일때
+			//검색일때 
 			MemberMgr mgr = new MemberMgr();
 			area3 = request.getParameter("area3");
 			vlist = mgr.searchZipcode(area3);

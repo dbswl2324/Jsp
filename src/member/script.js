@@ -8,7 +8,7 @@ function inputCheck(){
 		alert("비밀번호를 입력해 주세요.");
 		document.regFrm.pwd.focus();
 		return;
-	}
+	} 
 	if(document.regFrm.repwd.value==""){
 		alert("비밀번호를 확인해 주세요");
 		document.regFrm.repwd.focus();

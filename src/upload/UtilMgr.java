@@ -7,7 +7,7 @@ public class UtilMgr {
 
 	 public static String getContent(String comment){
         return br("", "<br/>", comment);
-   }
+   } 
 
   public static String br(String first, String brTag, String comment){
         StringBuffer buffer = new StringBuffer();

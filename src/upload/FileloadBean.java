@@ -9,7 +9,7 @@ public int getNum() {
 }
 public void setNum(int num) {
 	this.num = num;
-}
+} 
 public String getUpFile() {
 	return upFile;
 }

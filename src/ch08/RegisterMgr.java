@@ -8,7 +8,7 @@ public class RegisterMgr {
 	private DBConnectionMgr pool;
 	public RegisterMgr() {
 		pool = DBConnectionMgr.getInstance();
-	}
+	} 
 	//로그인 성공->true, 실패->false
 	public boolean loginRegister(String id, String pwd) {
 		Connection con = null;

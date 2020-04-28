@@ -10,7 +10,7 @@ public class MemberBean {
 	private String zipcode;
 	private String address;
 	private String hobby[];
-	private String job;
+	private String job; 
 	
 	public String getId() {
 		return id;

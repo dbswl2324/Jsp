@@ -8,7 +8,7 @@ public class ZipcodeBean {
 		this.zipcode = zipcode;
 	}
 	public String getArea1() {
-		return area1;
+		return area1; 
 	}
 	public void setArea1(String area1) {
 		this.area1 = area1;

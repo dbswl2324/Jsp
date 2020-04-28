@@ -15,7 +15,7 @@ import java.util.Vector;
  * °ψΕλ Util Class
  * <b>History</b><br>
 
-*/
+*/ 
 public class CommonUtil {
 	
 	/**
